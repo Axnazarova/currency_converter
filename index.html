@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="header-menu">
+          <div class="header-menu_logo">
+            <img src="image/Asset 1@3x 1.png" alt="logo" />
+          </div>
+
+          <ul class="header-menu_list">
+            <li class="header-menu_item"><a href="#">БАНК</a></li>
+            <li class="header-menu_item"><a href="#">БИЗНЕС</a></li>
+            <li class="header-menu_item"><a href="#">ИНВЕСТИЦИИ</a></li>
+            <li class="header-menu_item"><a href="#">СТРАХОВАНИЕ</a></li>
+            <li class="header-menu_item"><a href="#">МОБАЙЛ</a></li>
+            <li class="header-menu_item"><a href="#">ПУТЕШЕСТВИЯ</a></li>
+            <li class="header-menu_item"><a href="#">РАЗВЛЕЧЕНИЯ</a></li>
+          </ul>
+
+          <button class="header-menu_btn">ВОЙТИ</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="exchange">
+      <div class="container">
+        <h1>Конвертер валют онлайн</h1>
+        <div class="exchange-select">
+          <div class="mr-123 grey">
+            <p>У меня есть</p>
+            <div class="exchange-box">
+              <div class="exchange-currency_have active">RUB</div>
+              <div class="exchange-currency_have">USD</div>
+              <div class="exchange-currency_have">EUR</div>
+              <div class="exchange-currency_have">GBP</div>
+            </div>
+            <div class="box">
+              <input
+                class="have-currency-input"
+                type="number"
+                value="1"
+                maxlength="10"
+              />
+              <label class="have-currency-label">1 RUB = 0.014067 USD</label>
+            </div>
+          </div>
+
+          <div class="grey">
+            <p>Хочу приобрести</p>
+            <div class="exchange-box">
+              <div class="exchange-currency_get">RUB</div>
+              <div class="exchange-currency_get active">USD</div>
+              <div class="exchange-currency_get">EUR</div>
+              <div class="exchange-currency_get">GBP</div>
+            </div>
+            <div class="box">
+              <input
+                class="get-currency-input"
+                type="number"
+                value="0.014067"
+                maxlength="10"
+              />
+              <label class="get-currency-label">1 USD = 71.086132 RUB</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+https://github.com/Axnazarova/currency_converter.git
